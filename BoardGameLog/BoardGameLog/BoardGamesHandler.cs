@@ -9,12 +9,6 @@ namespace BoardGameLog
 {
   public class BoardGamesHandler : GameComponent
   {
-    public GameRepository _repo;
-    public BoardGamesHandler()
-    {
-      _repo = new GameRepository();
-    }
-
     public override void DisplaySubMenu()
     {
       Console.WriteLine("Welcome to the Board Game menu.");
@@ -29,7 +23,7 @@ namespace BoardGameLog
     {
       Console.Write("Enter the name of the boardgame you would like to add: ");
       var gameName = Console.ReadLine();
-      _repo.AddGame(new Game { Description = gameName });
+      // call to add to the db
       Console.WriteLine(gameName + " has been added to the library!");
       Console.WriteLine();
     }
