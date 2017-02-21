@@ -1,0 +1,10 @@
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\BoardGameDataFinish.dll.config
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\BoardGameDataFinish.dll
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\BoardGameDataFinish.pdb
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\EntityFramework.dll
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\EntityFramework.xml
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\obj\Debug\BoardGameDataFinish.csprojResolveAssemblyReference.cache
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\obj\Debug\BoardGameDataFinish.dll
+C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameDataFinish\obj\Debug\BoardGameDataFinish.pdb

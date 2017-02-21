@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameLog", "BoardGameLog\BoardGameLog.csproj", "{9DB07BD3-21D4-4349-9280-B833CDD2B1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameDataFinish", "BoardGameDataFinish\BoardGameDataFinish.csproj", "{B1D3B537-FA98-45B4-AE00-CA9B120A7F98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB07BD3-21D4-4349-9280-B833CDD2B1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB07BD3-21D4-4349-9280-B833CDD2B1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB07BD3-21D4-4349-9280-B833CDD2B1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB07BD3-21D4-4349-9280-B833CDD2B1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D3B537-FA98-45B4-AE00-CA9B120A7F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D3B537-FA98-45B4-AE00-CA9B120A7F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D3B537-FA98-45B4-AE00-CA9B120A7F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D3B537-FA98-45B4-AE00-CA9B120A7F98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
