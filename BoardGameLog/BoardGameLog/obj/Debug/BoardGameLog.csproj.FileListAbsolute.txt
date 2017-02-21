@@ -10,3 +10,15 @@ C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameL
 C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameLog\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameLog\bin\Debug\BoardGameDataFinish.dll
 C:\Users\bdavidson\Documents\Visual Studio 2015\Projects\BoardGameLog\BoardGameLog\bin\Debug\BoardGameDataFinish.pdb
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\BoardGameLog.exe.config
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\obj\Debug\BoardGameLog.exe
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\obj\Debug\BoardGameLog.pdb
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\BoardGameLog.exe
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\BoardGameLog.pdb
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\BoardGameDataFinish.dll
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\EntityFramework.dll
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\BoardGameDataFinish.pdb
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\EntityFramework.xml
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bdavidson\Source\Repos\EFbasics\BoardGameLog\BoardGameLog\obj\Debug\BoardGameLog.csprojResolveAssemblyReference.cache
