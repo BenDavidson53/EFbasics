@@ -9,6 +9,11 @@ namespace BoardGameLog
 {
   public class BoardGamesHandler : GameComponent
   {
+    private GameRepository _gameRepo;
+    public BoardGamesHandler()
+    {
+      _gameRepo = new GameRepository();
+    }
     public override void DisplaySubMenu()
     {
       Console.WriteLine("Welcome to the Board Game menu.");
@@ -24,6 +29,9 @@ namespace BoardGameLog
       Console.Write("Enter the name of the boardgame you would like to add: ");
       var gameName = Console.ReadLine();
       // call to add to the db
+      var newGame = new Game();
+      newGame.Description = gameName;
+      _gameRepo.Add(newGame);
       Console.WriteLine(gameName + " has been added to the library!");
       Console.WriteLine();
     }
@@ -32,35 +40,45 @@ namespace BoardGameLog
     {
       Console.Write("Enter the game id of the game you would like to delete: ");
       var gameId = GetNumberFromUser();
-      // call to delete from the db
-      Console.WriteLine();
-      Console.WriteLine("Game id " + gameId + " has been deleted!");
+      var gameToRemove = _gameRepo.GetGameById(gameId);
+
+      if (gameToRemove != null)
+      {
+        _gameRepo.DeleteGame(gameToRemove);
+        Console.WriteLine();
+        Console.WriteLine("Game id " + gameId + " has been deleted!");
+      }      
     }
 
     protected override void Read()
     {
       Console.WriteLine("These are the games in your library: ");
 
-      /*      
-      var result = call to get all games from the db
+      var result = _gameRepo.GetAllGames();
       foreach(var r in result)
       {
-        Console.WriteLine(r);
+        Console.WriteLine("Game ID: " + r.GameId + " Description: " + r.Description);
       }
-      */
     }
 
     protected override void Update()
     {
       Console.Write("Enter the game id of the game you would like to update: ");
       var gameId = GetNumberFromUser();
-      // call to get a single game by id
-      Console.WriteLine();
-      Console.Write("Enter a new name for the game id "+ gameId + ": ");
-      var newName = Console.ReadLine();
-      // call to update a game by id
-      Console.WriteLine();
-      Console.WriteLine("Game id " + gameId + " has been updated!");
+      var gameToUpdate = _gameRepo.GetGameById(gameId);
+
+      if (gameToUpdate != null)
+      {
+        Console.WriteLine();
+        Console.Write("Enter a new name for the game id " + gameId + ": ");
+        var newName = Console.ReadLine();
+
+        gameToUpdate.Description = newName;
+        _gameRepo.SaveChanges();
+
+        Console.WriteLine();
+        Console.WriteLine("Game id " + gameId + " has been updated!");
+      }
     }
   }
 }
